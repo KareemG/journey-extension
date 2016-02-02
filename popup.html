@@ -1,15 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>journey</title>
-    <script src="popup.js"></script>
+    <script src="jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="JourneyPopup.js" type="text/javascript" charset="utf-8"></script>
+    <script src="bootstrap_popup.js" type="text/javascript" charset="utf-8"></script>
   </head>
   <body>
-    <h1>journey</h1>
+    <h1 id="title">journey</h1>
     <button id="start" type="button">Begin Journey</button>
-	<button id="stop" type="button">Stop Journey</button>
+	  <button id="stop" type="button">Stop Journey</button>
     <button id="export" type="button">Export Journey</button>
-    <p id="webpage">N/A</p>
-	<p id="time">N/A</p>
+      <button id="display" type="button">Display Events</button>
+    <p id="webpage">n/a</p>
+    <p id="time">n/a</p>
+    <p id="events"></p>
   </body>
 </html>
